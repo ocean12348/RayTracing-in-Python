@@ -11,7 +11,7 @@ print(f"{image_width} {image_height}")
 print("255")
 for j in range(image_height):
 
-    sys.stderr.write(f"\rScanlines remaining: {(image_height - j)}                  ")
+    sys.stderr.write(f"\rScanlines remaining: {(image_height - j)}    ")
     sys.stderr.flush()
 
     for i in range(image_width):
