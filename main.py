@@ -1,5 +1,6 @@
 import io
 import sys
+import vec3
 
 image_width = 256
 image_height = 256
